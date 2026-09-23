@@ -1,13 +1,14 @@
 # Project status
 
-Saved on 17 September 2026.
+Updated on 23 September 2026.
 
 ## Current state
 
 - The academic website is stored in the GitHub organization `christian-jobelius-schulz`.
-- The repository is currently named `academic-website-draft`.
-- GitHub Pages is unpublished; the former public URL returns 404.
-- The intended final URL is `https://christian-jobelius-schulz.github.io/`.
+- The repository is named `christian-jobelius-schulz.github.io`.
+- GitHub Pages is published from `main`, root directory.
+- The live URL is `https://christian-jobelius-schulz.github.io/`.
+- The complete profile and papers are generated into HTML using `node scripts/build_site.cjs`. JavaScript adds abstract toggles; content remains readable without it.
 - The local preview is available at `http://127.0.0.1:8000/` while the local preview server is running.
 - On desktop, the left profile panel remains visible while the right content scrolls.
 - On smartphones, the layout becomes a normal single scrolling column.
@@ -40,10 +41,10 @@ Saved on 17 September 2026.
 1. Review the mildly adjusted portrait at the larger size in context.
 2. Add a favicon and optional social-preview image.
 3. Decide which source files should remain in the public repository.
-4. Make the main profile and research text available directly in generated HTML for robust indexing.
+4. Keep generated HTML in sync by running `node scripts/build_site.cjs` after content updates.
 5. Refine the automatic content-sync and deployment workflow.
 6. Perform a final desktop and smartphone review.
-7. Rename the repository to `christian-jobelius-schulz.github.io` and publish GitHub Pages.
+7. Include generated HTML in each content update pushed to GitHub Pages.
 8. Verify the live site in Google Search Console, submit `sitemap.xml`, and request indexing.
 
 ## Restore point
