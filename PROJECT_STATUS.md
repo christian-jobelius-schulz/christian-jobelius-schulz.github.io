@@ -30,7 +30,7 @@ Updated on 23 September 2026.
 - Robots indexing directive
 - Open Graph and Twitter metadata
 - Schema.org `Person` structured data
-- Schema.org `WebSite` name metadata, CJS SVG/PNG favicon, and portrait-based social preview metadata
+- Schema.org `WebSite` name metadata and portrait-based social preview metadata. No custom favicon (user preference).
 - Google Search Console verification tag; user confirmed verification and requested homepage indexing
 - `robots.txt`
 - `sitemap.xml`
