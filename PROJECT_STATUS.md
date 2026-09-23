@@ -30,6 +30,8 @@ Updated on 23 September 2026.
 - Robots indexing directive
 - Open Graph and Twitter metadata
 - Schema.org `Person` structured data
+- Schema.org `WebSite` name metadata, CJS SVG/PNG favicon, and portrait-based social preview metadata
+- Google Search Console verification tag; user confirmed verification and requested homepage indexing
 - `robots.txt`
 - `sitemap.xml`
 - `.nojekyll`
@@ -39,13 +41,13 @@ Updated on 23 September 2026.
 - Original CV source and assistant-led update instructions are recorded locally in `sources.local.json`, `AGENTS.md`, and `notes/README.md`. On 23 September 2026 the original LaTeX and PDF were reconciled, rebuilt, visually checked, and synchronized with both website PDF copies. Paper-project paths have not yet been supplied. This is an on-request workflow, not a background synchronization service.
 
 1. Review the mildly adjusted portrait at the larger size in context.
-2. Add a favicon and optional social-preview image.
+2. Recheck search appearance and social previews after external caches refresh.
 3. Decide which source files should remain in the public repository.
 4. Keep generated HTML in sync by running `node scripts/build_site.cjs` after content updates.
 5. Refine the automatic content-sync and deployment workflow.
 6. Perform a final desktop and smartphone review.
 7. Include generated HTML in each content update pushed to GitHub Pages.
-8. Verify the live site in Google Search Console, submit `sitemap.xml`, and request indexing.
+8. Monitor Google Search Console for homepage indexing and sitemap processing; verification and the indexing request are complete.
 
 ## Restore point
 
