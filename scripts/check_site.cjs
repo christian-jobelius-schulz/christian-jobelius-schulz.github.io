@@ -16,7 +16,8 @@ for (const paper of data.papers) {
 assert.equal((html.match(/class="paper"/g) || []).length, data.papers.length);
 assert(!html.includes('Your University'));
 assert(!html.includes('Add your CV'));
-assert(text.indexOf('Testing Growth-at-Risk') < text.indexOf('Do Covariate Effects'));
+const orderedTitles = data.papers.map(paper => text.indexOf(paper.title));
+assert(orderedTitles.every((position, index) => index === 0 || position > orderedTitles[index - 1]), 'Paper order must match curated content');
 assert(html.includes('</a>, and <a'), 'Oxford comma must be preserved');
 for (const match of html.matchAll(/(?:href|src)="([^"#]+)"/g)) {
   if (!/^[a-z]+:/i.test(match[1])) assert(fs.existsSync(path.join(root, match[1])), `Missing file ${match[1]}`);

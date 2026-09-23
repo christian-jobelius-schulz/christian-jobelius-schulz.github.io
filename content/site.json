@@ -1,7 +1,7 @@
 {
   "profile": {
     "name": "Christian Jobelius Schulz",
-    "role": "PhD student in econometrics",
+    "role": "PhD Student in Econometrics",
     "affiliation": "University of Duisburg-Essen",
     "tagline": "",
     "bio": "I am a PhD student in econometrics at the University of Duisburg-Essen. I am part of the Ruhr Graduate School in Economics and a member of the TRR 391. I worked in the monetary policy department of the Deutsche Bundesbank and I am currently visiting the monetary policy directorate of the Bank of England as a PhD intern. I co-organize the RuhrMetrics Reading Group. My research focuses on (time series) econometrics, machine learning, and forecasting for macro(-finance) and energy.",
@@ -14,7 +14,7 @@
       "LinkedIn": "https://www.linkedin.com/in/christian-schulz-2366971a4/",
       "ORCID": "https://orcid.org/0009-0001-2147-1851"
     },
-    "seoTitle": "Christian Jobelius Schulz - PhD Student",
+    "seoTitle": "Christian Jobelius Schulz - PhD Student in Econometrics",
     "affiliationUrl": "https://www.uni-due.de/en/",
     "bioHtml": "I am a PhD student in econometrics at the <a href=\"https://www.uni-due.de/en/\" target=\"_blank\" rel=\"noreferrer\">University of Duisburg-Essen</a>. I am part of the <a href=\"https://www.rgs-econ.org/\" target=\"_blank\" rel=\"noreferrer\">Ruhr Graduate School in Economics</a> and a member of the <a href=\"https://trr391.tu-dortmund.de/\" target=\"_blank\" rel=\"noreferrer\">TRR 391</a>. I worked in the monetary policy department of the <a href=\"https://www.bundesbank.de/en/bundesbank/research/research-centre\" target=\"_blank\" rel=\"noreferrer\">Deutsche Bundesbank</a> and I am currently visiting the monetary policy directorate of the <a href=\"https://www.bankofengland.co.uk/research\" target=\"_blank\" rel=\"noreferrer\">Bank of England</a> as a PhD intern. I co-organize the <a href=\"https://ruhrmetricsreadinggroup.rgs-econ.org/\" target=\"_blank\" rel=\"noreferrer\">RuhrMetrics Reading Group</a>. My research focuses on (time series) econometrics, machine learning, and forecasting for macro(-finance) and energy.",
     "emailDisplay": "christian.jobelius.schulz [at] vwl.uni-due.de",
@@ -40,7 +40,7 @@
       ],
       "category": "Working Papers",
       "date": "September 2026",
-      "status": "Working paper coming in the very next days",
+      "status": "Working paper coming very soon",
       "venue": "",
       "year": "",
       "abstract": "We propose an online multivariate distributional forecasting model in which we condition the parameters of a vine copula on covariates. An online algorithm updates the parameters sequentially as new observations become available. Existing approaches require full batch re-estimation using all available data at each update step, which makes them computationally prohibitive in large-scale forecasting applications and less suitable for settings in which dependence structures evolve over time. Simulation results show that the online procedure achieves forecasting accuracy comparable to that of the batch estimator, while drastically reducing computation time. We illustrate the method in a forecasting application to electricity net-demand across five regions of Great Britain and show that (i) the conditional vine copula model outperforms an unconditional Gaussian (and vine copula) benchmark and (ii) that online estimation improves forecast accuracy when batch re-estimation is not available. The algorithm is implemented in the Python package ondil.",
@@ -93,7 +93,7 @@
       "links": {}
     },
     {
-      "title": "Do Covariate Effects Differ across the Distribution?—Self-Normalized Tests for Time Series Quantile and Expected Shortfall Regressions",
+      "title": "Self-Normalized Tests for Time Series Regression",
       "authors": [],
       "category": "Work in Progress",
       "status": "Work in progress",
