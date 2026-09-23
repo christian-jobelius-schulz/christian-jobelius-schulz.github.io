@@ -19,7 +19,8 @@ Saved on 17 September 2026.
 - Paper titles are dark grey, not blue.
 - `Online Conditional Vine Copulas: Forecasting Electricity Demand` is the first working paper.
 - The biography uses “a member of the TRR 391” and “RuhrMetrics Reading Group.”
-- The portrait is 200 px wide on desktop and 180 px on smartphones.
+- The portrait uses `assets/portrait-mild.png`, with a much milder color correction retaining the original sunset warmth, at 230 px wide on desktop and 210 px on smartphones. The original `me.jpg` is preserved.
+- `Testing Growth-at-Risk` is first under Work in Progress.
 
 ## Metadata already prepared
 
@@ -34,7 +35,9 @@ Saved on 17 September 2026.
 
 ## Recommended next steps
 
-1. Replace the placeholder portrait with the final photograph.
+- Original CV source and assistant-led update instructions are recorded locally in `sources.local.json`, `AGENTS.md`, and `notes/README.md`. On 23 September 2026 the original LaTeX and PDF were reconciled, rebuilt, visually checked, and synchronized with both website PDF copies. Paper-project paths have not yet been supplied. This is an on-request workflow, not a background synchronization service.
+
+1. Review the mildly adjusted portrait at the larger size in context.
 2. Add a favicon and optional social-preview image.
 3. Decide which source files should remain in the public repository.
 4. Make the main profile and research text available directly in generated HTML for robust indexing.

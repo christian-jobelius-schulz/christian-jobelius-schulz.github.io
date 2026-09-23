@@ -41,7 +41,11 @@ function renderProfile(profile) {
     const dd = document.createElement("dd");
     dt.textContent = label;
     if (label === "Email") {
-      const a = document.createElement("a"); a.href = `mailto:${value}`; a.textContent = profile.emailDisplay || value; dd.append(a);
+      const a = document.createElement("a");
+      a.href = `mailto:${value}`;
+      const [localPart, domain] = value.split("@");
+      a.append(localPart, document.createElement("br"), `[at] ${domain}`);
+      dd.append(a);
     } else dd.textContent = value;
     return [dt, dd];
   }));
@@ -61,7 +65,7 @@ function renderAuthors(container, authors = [], date = "") {
   container.append("(");
   if (authors.length) container.append("with ");
   authors.forEach((author, index) => {
-    if (index) container.append(index === authors.length - 1 ? " and " : ", ");
+    if (index) container.append(index === authors.length - 1 ? (authors.length > 2 ? ", and " : " and ") : ", ");
     const item = typeof author === "string" ? { name: author } : author;
     if (item.url) {
       const link = document.createElement("a");

@@ -1,4 +1,7 @@
 tmp/
+sources.local.json
+AGENTS.md
+notes/
 __pycache__/
 *.py[cod]
 .DS_Store
