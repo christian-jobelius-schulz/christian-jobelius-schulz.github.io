@@ -25,6 +25,7 @@ h1, h2 { font-family: Georgia, "Times New Roman", serif; font-weight: normal; }
 .sidebar img { width: 230px; max-width: 100%; height: auto; margin: 0 0 15px; }
 .monogram { display: none; }
 .profile-name { margin: 0; font-weight: bold; }
+.mobile-email { display: none; }
 .profile-role { margin: 2px 0 15px; }
 dl { margin: 0; }
 dt { margin-top: 9px; font-size: 12px; }
@@ -63,6 +64,8 @@ footer p { margin: 0; }
   .page { grid-template-columns: minmax(0, 1fr); gap: 30px; margin: 24px auto 30px; padding: 0 16px; }
   .sidebar { display: contents; position: static; }
   .profile-intro { order: 1; display: flex; flex-direction: column; align-items: flex-start; }
+  .mobile-email { display: block; max-width: 100%; }
+  .profile-contact .contact-email { display: none; }
   .sidebar h1 { white-space: normal; margin-bottom: 8px; }
   .sidebar img { order: -1; width: 210px; }
   .content { order: 2; padding-top: 0; }
