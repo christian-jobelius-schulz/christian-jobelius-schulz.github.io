@@ -11,7 +11,7 @@ Updated on 23 September 2026.
 - The complete profile and papers are generated into HTML using `node scripts/build_site.cjs`. JavaScript adds abstract toggles; content remains readable without it.
 - The local preview is available at `http://127.0.0.1:8000/` while the local preview server is running.
 - On desktop, the left profile panel remains visible while the right content scrolls.
-- On smartphones, the layout becomes a normal single scrolling column.
+- On smartphones, the single column shows the photo, name and role first, then Welcome and research, followed by university affiliation, contact details and profile links. Desktop retains the sticky sidebar.
 
 ## Content and design decisions
 

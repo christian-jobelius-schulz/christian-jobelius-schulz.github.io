@@ -61,10 +61,12 @@ footer p { margin: 0; }
 
 @media (max-width: 620px) {
   .page { grid-template-columns: minmax(0, 1fr); gap: 30px; margin: 24px auto 30px; padding: 0 16px; }
-  .sidebar { position: static; }
-  .sidebar h1 { white-space: normal; }
-  .sidebar img { width: 210px; }
-  .content { padding-top: 0; }
+  .sidebar { display: contents; position: static; }
+  .profile-intro { order: 1; display: flex; flex-direction: column; align-items: flex-start; }
+  .sidebar h1 { white-space: normal; margin-bottom: 8px; }
+  .sidebar img { order: -1; width: 210px; }
+  .content { order: 2; padding-top: 0; }
+  .profile-contact { order: 3; padding-top: 24px; border-top: 1px solid #ddd; }
   h2 { font-size: 21px; }
   hr { margin: 24px 0; }
   .paper-group + .paper-group { margin-top: 27px; padding-top: 24px; }
