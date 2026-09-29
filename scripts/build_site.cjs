@@ -43,6 +43,7 @@ const body = `<body>
       ${p.email ? `<dl class="mobile-email"><dt>Email</dt><dd><a href="mailto:${escape(p.email)}">${escape(p.email.split('@')[0])}<br>[at] ${escape(p.email.split('@')[1])}</a></dd></dl>` : ''}
       </div>
       <div class="profile-contact" id="contact">
+      <h2 class="contact-heading">Contact</h2>
       <p class="profile-role">${p.affiliationUrl ? link(p.affiliation, p.affiliationUrl) : escape(p.affiliation)}</p>
       <dl id="contact-list">${contacts}</dl>
       <div class="socials" id="social-links">${Object.entries(p.links || {}).map(([label, url]) => link(label, url)).join('\n')}</div>
