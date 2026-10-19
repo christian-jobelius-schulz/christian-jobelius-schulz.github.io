@@ -41,11 +41,13 @@
       ],
       "category": "Working Papers",
       "date": "September 2026",
-      "status": "Working paper coming very soon",
+      "status": "Working paper",
       "venue": "",
       "year": "",
       "abstract": "We propose an online multivariate distributional forecasting model in which we condition the parameters of a vine copula on covariates. An online algorithm updates the parameters sequentially as new observations become available. Existing approaches require full batch re-estimation using all available data at each update step, which makes them computationally prohibitive in large-scale forecasting applications and less suitable for settings in which dependence structures evolve over time. Simulation results show that the online procedure achieves forecasting accuracy comparable to that of the batch estimator, while drastically reducing computation time. We illustrate the method in a forecasting application to electricity net-demand across five regions of Great Britain and show that (i) the conditional vine copula model outperforms an unconditional Gaussian (and vine copula) benchmark and (ii) that online estimation improves forecast accuracy when batch re-estimation is not available. The algorithm is implemented in the Python package ondil.",
-      "links": {}
+      "links": {
+        "Working Paper": "https://arxiv.org/abs/2610.23119"
+      }
     },
     {
       "title": "Self-Normalized Inference in (Quantile, Expected Shortfall) Regressions for Time Series",
