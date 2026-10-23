@@ -13,7 +13,7 @@ function authors(paper) {
 function renderPaper(paper, index) {
   const expandable = paper.category !== 'Work in Progress' || paper.abstract;
   const id = `paper-detail-${index}`;
-  const status = paper.status ? (paper.links?.['Working Paper'] ? link(`[${paper.status}]`, paper.links['Working Paper']) : escape(paper.status)) : '';
+  const status = paper.venue ? `– ${escape(paper.venue)}${paper.status ? ', ' + escape(paper.status) : ''}` : paper.status ? (paper.links?.['Working Paper'] ? link(`[${paper.status}]`, paper.links['Working Paper']) : escape(paper.status)) : '';
   return `<article class="paper">
     <div class="paper-summary"><span class="paper-main">
       <span class="paper-title">${escape(paper.title)}</span>${expandable ? ` <button class="abstract-button" type="button" aria-expanded="true" aria-controls="${id}" hidden>[Click for abstract]</button>` : ''}

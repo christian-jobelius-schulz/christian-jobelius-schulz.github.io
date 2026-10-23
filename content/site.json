@@ -59,8 +59,8 @@
       ],
       "category": "Working Papers",
       "date": "February 2025",
-      "status": "Working paper",
-      "venue": "",
+      "status": "revise and resubmit",
+      "venue": "Econometric Theory",
       "year": "",
       "abstract": "We propose self-normalized inference methods for time-series expected-shortfall regressions and, as a corollary, for quantile regressions. The procedures avoid bootstrap methods and direct long-run variance estimation, require only expanding-window regression estimates, and remain correctly sized under strong serial dependence. Simulations illustrate their finite-sample performance, while applications to stock-return predictability and Growth-at-Risk demonstrate their practical usefulness.",
       "links": {
